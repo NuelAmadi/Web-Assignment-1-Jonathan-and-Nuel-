@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact - Our Website</title>
+    <title>Contact - GreenHarvest Farms</title>
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
+    <!-- Header and Navigation -->
     <header>
-      <img src="images/logo.png" alt="Website Logo" class="logo" />
+      <img src="images/logo.png" alt="GreenHarvest Farms Logo" class="logo" />
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -18,98 +19,122 @@
       </nav>
     </header>
 
+    <!-- Contact Form -->
     <main>
       <h1>Contact Us</h1>
+      <p>
+        If you have any questions, feel free to reach out. We will respond as
+        soon as possible.
+      </p>
+
       <form
         action="mailto:example@example.com"
         method="post"
         enctype="text/plain"
       >
-        <label for="salutation">Salutation:</label>
-        <select id="salutation" name="salutation">
-          <option value="Mr">Mr</option>
-          <option value="Mrs">Mrs</option>
-          <option value="Ms">Ms</option></select
-        ><br /><br />
+        <div class="form-group">
+          <label for="salutation">Salutation:</label>
+          <select id="salutation" name="salutation">
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Ms">Ms</option>
+          </select>
+        </div>
 
-        <label for="fname">First Name:</label>
-        <input
-          type="text"
-          id="fname"
-          name="fname"
-          required
-          autofocus
-        /><br /><br />
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required autofocus />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required />
+          </div>
+        </div>
 
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" required /><br /><br />
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="123-456-7890"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@example.com"
+              required
+            />
+          </div>
+        </div>
 
-        <label for="phone">Phone:</label>
-        <input
-          type="tel"
-          id="phone"
-          name="phone"
-          placeholder="123-456-7890"
-          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-          required
-        /><br /><br />
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required />
+        </div>
 
-        <label for="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="example@example.com"
-          required
-        /><br /><br />
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
 
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" required /><br /><br />
+        <div class="form-group">
+          <label>Preferred Contact Method:</label>
+          <input
+            type="radio"
+            id="contact-email"
+            name="contact-method"
+            value="email"
+          />
+          <label for="contact-email">Email</label>
+          <input
+            type="radio"
+            id="contact-phone"
+            name="contact-method"
+            value="phone"
+          />
+          <label for="contact-phone">Phone</label>
+        </div>
 
-        <label for="message">Message:</label><br />
-        <textarea
-          id="message"
-          name="message"
-          rows="5"
-          cols="40"
-          required
-        ></textarea
-        ><br /><br />
+        <div class="form-group">
+          <label>Subscribe to Newsletter:</label>
+          <input
+            type="radio"
+            id="newsletter-yes"
+            name="newsletter"
+            value="yes"
+          />
+          <label for="newsletter-yes">Yes</label>
+          <input type="radio" id="newsletter-no" name="newsletter" value="no" />
+          <label for="newsletter-no">No</label>
+        </div>
 
-        <label>Preferred Contact Method:</label>
-        <input
-          type="radio"
-          id="contact-email"
-          name="contact-method"
-          value="email"
-        />
-        <label for="contact-email">Email</label>
-        <input
-          type="radio"
-          id="contact-phone"
-          name="contact-method"
-          value="phone"
-        />
-        <label for="contact-phone">Phone</label><br /><br />
-
-        <label>Subscribe to Newsletter:</label>
-        <input type="checkbox" id="newsletter" name="newsletter" value="yes" />
-        <label for="newsletter">Yes</label>
-        <input
-          type="checkbox"
-          id="newsletter-no"
-          name="newsletter"
-          value="no"
-        />
-        <label for="newsletter-no">no</label><br /><br />
-
-        <input type="reset" value="Reset" />
-        <input type="submit" value="Submit" />
+        <div class="form-buttons">
+          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit" />
+        </div>
       </form>
     </main>
 
+    <!-- Contact Information Section -->
+    <section class="contact-info">
+      <h2>Our Contact Information</h2>
+      <p><strong>Email:</strong> contact@greenharvest.com</p>
+      <p><strong>Phone:</strong> +1 234 567 890</p>
+      <p><strong>Address:</strong> 123 GreenHarvest Lane, Farmville, Country</p>
+    </section>
+
+    <!-- Footer -->
     <footer>
-      <p>&copy; 2025 My Website. All rights reserved.</p>
+      <p>&copy; 2025 GreenHarvest Farms | All rights reserved.</p>
     </footer>
   </body>
 </html>

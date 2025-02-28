@@ -54,7 +54,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-  background: url("images/farm-banner.jpg") center/cover no-repeat;
+  background: url("../images/farm-banner.webp") center/cover no-repeat;
   height: 60vh;
   display: flex;
   align-items: center;
@@ -83,11 +83,6 @@ nav ul li a:hover {
 
 .btn:hover {
   background: #e6b800;
-}
-
-/* Main Content Area */
-main {
-  padding: 20px;
 }
 
 /* Products Section */
@@ -153,88 +148,7 @@ main {
   margin-top: 5px;
 }
 
-/* Footer (Without Navigation Links) */
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-}
-
-/* Table Styles */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-}
-
-table,
-th,
-td {
-  border: 1px solid #333;
-}
-
-th,
-td {
-  padding: 10px;
-  text-align: left;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-/* Form Styles */
-form {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-form label {
-  display: block;
-  margin-top: 10px;
-}
-
-form input,
-form select,
-form textarea {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-form input[type="radio"],
-form input[type="checkbox"] {
-  width: auto;
-  margin-right: 10px;
-}
-
-form input[type="submit"],
-form input[type="reset"] {
-  width: auto;
-  padding: 10px 20px;
-  margin-top: 20px;
-  cursor: pointer;
-  border: none;
-  background-color: #333;
-  color: white;
-  transition: background 0.3s ease;
-}
-
-form input[type="submit"]:hover,
-form input[type="reset"]:hover {
-  background-color: #ffcc00;
-  color: black;
-}
-
-/* Pseudo-element for first letter */
-p::first-letter {
-  font-size: 150%;
-  color: #ffcc00;
-}
-
-/* Image Styles (for non-hero images) */
+/* About Page  */
 .image-container {
   display: flex;
   flex-direction: column;
@@ -262,4 +176,121 @@ p::first-letter {
   object-fit: cover;
   border-radius: 50%;
   margin-left: 15px;
+}
+
+/* Table Styling  */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #333;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Contact Page Styling */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+/* Form Buttons */
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffcc00;
+  color: black;
+}
+
+input[type="reset"] {
+  background-color: #bbb;
+  color: white;
+}
+
+input[type="reset"]:hover {
+  background-color: #888;
+}
+
+/* Contact Information Section */
+.contact-info {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
 }
