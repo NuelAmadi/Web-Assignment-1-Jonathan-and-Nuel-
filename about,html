@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - My Website</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Website Logo" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>About Us</h1>
+      <p>
+        This is the about page. Here, you can learn more about our team and
+        mission.
+      </p>
+      <table>
+        <tr>
+          <th>Farm Tools</th>
+          <th>Uses</th>
+        </tr>
+        <tr>
+          <td>Shovel</td>
+          <td>A versatile tool used for digging, lifting, and collecting</td>
+        </tr>
+        <tr>
+          <td>Rakes</td>
+          <td>Used to gather leaves and debris, and prepare the ground</td>
+        </tr>
+        <tr>
+          <td>Harrows</td>
+          <td>
+            Used to level and smooth soil, break up clumps, and control weed
+            growth
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">We are a passionate team!</td>
+        </tr>
+      </table>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
