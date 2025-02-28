@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - My Website</title>
+    <title>Home - GreenHarvest Farms</title>
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
+    <!-- Header and Navigation -->
     <header>
-      <img src="images/logo.png" alt="Website Logo" class="logo" />
+      <img src="images/logo.png" alt="GreenHarvest Farms Logo" class="logo" />
       <nav>
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
@@ -18,25 +19,64 @@
       </nav>
     </header>
 
-    <main>
-      <h1>Welcome to our Website</h1>
-      <figure>
-        <img src="images/example.jpg" alt="Example Image" />
-        <figcaption>This is an example image.</figcaption>
-      </figure>
-      <p>
-        This is the home page of our website. Here, you can learn more about our
-        project and get in touch with me.
-      </p>
-      <p>
-        <a href="https://www.example.com" target="_blank"
-          >Visit an external website</a
-        >
-      </p>
-    </main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to GreenHarvest Farms</h1>
+        <p>Growing Sustainable Agriculture for a Better Tomorrow.</p>
+        <a href="about.html" class="btn">Learn More</a>
+      </div>
+    </section>
 
+    <!-- Our Products Section -->
+    <section class="products">
+      <h2>Our Featured Crops</h2>
+      <div class="product-container">
+        <div class="product-box">
+          <img src="images/Corn Field.jpg" alt="Corn" />
+          <h3>Corn</h3>
+          <p>
+            Our organic corn is grown without pesticides for a healthy, natural
+            taste.
+          </p>
+        </div>
+        <div class="product-box">
+          <img src="images/Rice Field.jpg" alt="Rice" />
+          <h3>Rice</h3>
+          <p>
+            We produce high-quality rice, rich in nutrients and sustainably
+            harvested.
+          </p>
+        </div>
+        <div class="product-box">
+          <img src="images/Wheat Field.jpg" alt="Wheat" />
+          <h3>Wheat</h3>
+          <p>
+            Freshly harvested wheat, perfect for baking and flour production.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-box">
+        <p>
+          "GreenHarvest Farms provides the best organic crops. Highly
+          recommended!"
+        </p>
+        <h4>- John Doe</h4>
+      </div>
+      <div class="testimonial-box">
+        <p>"Amazing fresh produce with great sustainability efforts."</p>
+        <h4>- Jane Smith</h4>
+      </div>
+    </section>
+
+    <!-- Footer (No Navigation) -->
     <footer>
-      <p>&copy; 2025 My Website. All rights reserved.</p>
+      <p>&copy; 2025 GreenHarvest Farms | All rights reserved.</p>
     </footer>
   </body>
 </html>
