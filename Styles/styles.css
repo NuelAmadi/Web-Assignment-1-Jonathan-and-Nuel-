@@ -114,3 +114,30 @@ p::first-letter {
   font-size: 150%;
   color: #ffcc00;
 }
+
+/* Image Styles */
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  .image-box {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  .text-content {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .image-box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 15px;
+  }
