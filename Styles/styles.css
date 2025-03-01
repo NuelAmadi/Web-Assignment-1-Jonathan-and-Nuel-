@@ -63,16 +63,16 @@ nav ul li a:hover {
   text-align: center;
   color: white;
   padding: 20px;
-  position: relative; /* To allow positioning of citation text */
+  position: relative;
 }
 
 .hero .image-citation {
   position: absolute;
-  bottom: 10px; /* Positioning the citation at the bottom */
-  left: 20px;  /* Adjusting left position for spacing */
-  font-size: 0.8em;  /* Making the citation smaller */
-  color: rgba(255, 255, 255, 0.8);  /* White text with transparency */
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for readability */
+  bottom: 10px; 
+  left: 20px; 
+  font-size: 0.8em; 
+  color: rgba(255, 255, 255, 0.8);  
+  background-color: rgba(0, 0, 0, 0.5); 
   padding: 5px;
 }
 
@@ -236,35 +236,26 @@ form {
 }
 
 .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   margin-bottom: 15px;
 }
 
-label {
+.form-group label {
   font-weight: bold;
-  display: block;
   margin-bottom: 5px;
 }
 
-input,
-select,
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-textarea {
-  resize: none;
-}
-
-.form-row {
+.option-group {
   display: flex;
-  gap: 15px;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
 }
 
-.form-row .form-group {
-  flex: 1;
+.option-group input {
+  margin-right: 5px;
 }
 
 /* Form Buttons */
