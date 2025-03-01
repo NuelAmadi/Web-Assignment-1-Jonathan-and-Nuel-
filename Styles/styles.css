@@ -63,6 +63,17 @@ nav ul li a:hover {
   text-align: center;
   color: white;
   padding: 20px;
+  position: relative; /* To allow positioning of citation text */
+}
+
+.hero .image-citation {
+  position: absolute;
+  bottom: 10px; /* Positioning the citation at the bottom */
+  left: 20px;  /* Adjusting left position for spacing */
+  font-size: 0.8em;  /* Making the citation smaller */
+  color: rgba(255, 255, 255, 0.8);  /* White text with transparency */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for readability */
+  padding: 5px;
 }
 
 .hero-content {
