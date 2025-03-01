@@ -17,7 +17,8 @@ header {
 }
 
 header .logo {
-  height: 50px;
+  width: 100px;
+  height: auto;
 }
 
 /* Navigation Menu */
