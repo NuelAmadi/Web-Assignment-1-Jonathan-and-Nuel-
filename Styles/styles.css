@@ -325,7 +325,7 @@ body {
 }
 
 /* Large Screens (≥ 791px) - Default */
-@media (min-width: 791px) {
+@media only screen and (min-width: 791px) {
     body {
         max-width: 790px;
         margin: auto;
@@ -356,7 +356,7 @@ body {
 }
 
 /* Medium Screens (591px - 790px) */
-@media (max-width: 790px) {
+@media only screen and (max-width: 790px) {
     body {
         max-width: 100%;
         padding: 10px;
@@ -374,7 +374,7 @@ body {
 }
 
 /* Small Screens (≤ 590px) */
-@media (max-width: 590px) {
+@media only screen and (max-width: 590px) {
     body {
         display: flex;
         flex-direction: column;
