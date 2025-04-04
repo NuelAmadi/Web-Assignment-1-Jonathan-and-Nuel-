@@ -21,13 +21,13 @@ CSS Design & Responsiveness
 - Integrate normalize.css: Jonathan
 - Define media queries for breakpoints (590px, 790px): Jonathan
 - Style layout for:
-  - Small devices (1-column format): Nuel
-  - Medium devices (2x2 grid layout): Jonathan
+  - Small devices (1-column format): Jonathan
+  - Medium devices (2x2 grid layout): Nuel
   - Large devices (centered layout with fixed width): Jonathan
 
 Images, Media & Assets
-- Add images with alt tags: Nuel
-- Test all links and media: Nuel
+- Add images with alt tags: Jonathan
+- Test all links and media: Jonathan & Nuel
 
 
 Part 2: Accessibility Analysis & Improvements
@@ -58,9 +58,9 @@ Generalized Changes Implemented:
 Documentation, File Structure & Submission
 
 - List of tasks and team roles: Jonathan
-- Accessibility findings and changes made (perceivable, operable, understandable, robust): Nuel
-- Organize files into correct folder structure: Nuel
-- Ensure correct naming conventions and zip folder: Jonathan
-- Submit to correct drive location: Jonathan
+- Accessibility findings and changes made (perceivable, operable, understandable, robust): Jonathan & Nuel
+- Organize files into correct folder structure: Jonathan
+- Ensure correct naming conventions and zip folder: Nuel
+- Submit to correct drive location: Nuel
 
-Both members will be involved in review and final testing of the website on multiple devices.
+Both members will be involved in the review and final testing of the website on multiple devices.
