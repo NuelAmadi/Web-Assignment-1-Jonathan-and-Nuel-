@@ -18,7 +18,7 @@ HTML Structure & Layout
 - Ensure consistency across pages (header, footer, main sections): Jonathan
 
 CSS Design & Responsiveness
-- Integrate normalize.css: Nuel
+- Integrate normalize.css: Jonathan
 - Define media queries for breakpoints (590px, 790px): Jonathan
 - Style layout for:
   - Small devices (1-column format): Nuel
