@@ -30,17 +30,29 @@ Images, Media & Assets
 - Test all links and media: Nuel
 
 
-Part 2: Accessibility Improvements
+Part 2: Accessibility Analysis & Improvements
 
-Manual Accessibility Analysis
-- Evaluate based on WCAG checklist: Jonathan
+Manual and Automated Accessibility Issues Identified:
 
-Automated Accessibility Testing
-- Use WAVE tool for analysis: Nuel
+Perceivable Issues:
+- [Describe issues found related to perceivability, e.g., missing alt tags, low color contrast]
 
-Accessibility Fixes
-- Fix issues found manually: Jonathan
-- Fix issues found via WAVE: Nuel
+Operable Issues:
+- [Describe issues found related to operability, e.g., inaccessible navigation, keyboard traps]
+
+Understandable Issues:
+- [Describe issues found related to understandability, e.g., confusing UI, inconsistent labels]
+
+Robust Issues:
+- [Describe issues found related to robustness, e.g., outdated ARIA attributes, HTML validation errors]
+
+Generalized Changes Made:
+
+Types of Issues Created:
+- [Briefly summarize the types of accessibility problems that emerged during development]
+
+Generalized Changes Implemented:
+- [Summarize the types of changes made to address those issues, such as improving semantic HTML, adding ARIA roles, enhancing keyboard support, etc.]
 
 
 Documentation, File Structure & Submission
