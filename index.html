@@ -8,15 +8,11 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <!-- Header and Navigation -->
-    <header>
+    <header role="banner">
       <figure>
-        <img
-          src="images/Agribloom Logo.png"
-          title="Website Logo"
-          alt="Website Logo"
-          class="logo"
-        />
+        <img src="images/Agribloom Logo.png" alt="Website Logo" class="logo" />
         <figcaption class="hidden-attribution">
           Photo by Melanie Maecker-Tursun on
           <a
@@ -29,7 +25,7 @@
           >.
         </figcaption>
       </figure>
-      <nav>
+      <nav role="navigation" aria-label="Main navigation">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -64,7 +60,7 @@
       <div class="product-container">
         <div class="product-box">
           <figure>
-            <img src="images/Corn Field.jpg" title="Corn" alt="Corn" />
+            <img src="images/Corn Field.jpg" alt="Corn" />
             <figcaption class="hidden-attribution">
               Photo by Tournasol7 on
               <a
@@ -85,7 +81,7 @@
         </div>
         <div class="product-box">
           <figure>
-            <img src="images/Rice Field.jpg" title="Rice" alt="Rice" />
+            <img src="images/Rice Field.jpg" alt="Rice" />
             <figcaption class="hidden-attribution">
               Photo by Vis M on
               <a
@@ -106,7 +102,7 @@
         </div>
         <div class="product-box">
           <figure>
-            <img src="images/Wheat Field.jpg" title="Wheat" alt="Wheat" />
+            <img src="images/Wheat Field.jpg" alt="Wheat" />
             <figcaption class="hidden-attribution">
               Photo by Rob Young on
               <a
@@ -132,16 +128,16 @@
       <h2>What Our Customers Say</h2>
       <div class="testimonial-box">
         <p>"Agribloom provides the best organic crops. Highly recommended!"</p>
-        <h4>- John Doe</h4>
+        <h3>- John Doe</h3>
       </div>
       <div class="testimonial-box">
         <p>"Amazing fresh produce with great sustainability efforts."</p>
-        <h4>- Jane Smith</h4>
+        <h3>- Jane Smith</h3>
       </div>
     </section>
 
     <!-- Footer (No Navigation) -->
-    <footer>
+    <footer role="contentinfo">
       <p>&copy; 2025 Agribloom | All rights reserved.</p>
     </footer>
   </body>
