@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  background-color: #e0e0e0; /* Background color for fluid design */
 }
 
 /* Header and Navigation */
@@ -68,38 +69,33 @@ nav ul li a:hover {
 
 .hero .image-citation {
   position: absolute;
-  bottom: 10px; /* Positioning the citation at the bottom */
-  left: 20px; /* Adjusting left position for spacing */
-  font-size: 0.8em; /* Making the citation smaller */
-  color: rgba(255, 255, 255, 0.8); /* White text with transparency */
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Optional: semi-transparent background for readability */
+  bottom: 10px;
+  left: 20px;
+  font-size: 0.8em;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.85);
   padding: 5px;
 }
 
 .hero-content {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.85);
+  color: #ffffff;
   padding: 20px;
   border-radius: 10px;
 }
 
 .btn {
-  display: inline-block;
-  padding: 10px 20px;
   background: #ffcc00;
-  color: black;
-  text-decoration: none;
+  color: #000000;
   font-weight: bold;
-  margin-top: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
   border-radius: 5px;
 }
 
 .btn:hover {
-  background: #e6b800;
+  background: #cc9900;
+  color: #ffffff;
 }
 
 /* Products Section */
@@ -157,15 +153,18 @@ nav ul li a:hover {
 
 .testimonial-box p {
   font-style: italic;
+  color: #222222;
 }
 
 .testimonial-box h4 {
   text-align: right;
   font-size: 16px;
   margin-top: 5px;
+  color: #222;
 }
 
-/* About Page  */
+
+/* About Page */
 .image-container {
   display: flex;
   flex-direction: column;
@@ -195,7 +194,7 @@ nav ul li a:hover {
   margin-left: 15px;
 }
 
-/* Image Attribution  */
+/* Image Attribution */
 .hidden-attribution {
   opacity: 0;
   font-size: 0.7em;
@@ -207,7 +206,7 @@ figure:hover .hidden-attribution {
   opacity: 1;
 }
 
-/* Table Styling  */
+/* Table Styling */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -315,91 +314,6 @@ footer {
   padding: 20px 0;
 }
 
-/* Media queries */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #e0e0e0; /* Background color for fluid design */
-}
-
-/* Large Screens (≥ 791px) - Default */
-@media only screen and (min-width: 791px) {
-    body {
-        max-width: 790px;
-        margin: auto;
-        background-color: white;
-        padding: 20px;
-    }
-
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .hero {
-        height: 60vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .product-container {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-}
-
-/* Medium Screens (591px - 790px) */
-@media only screen and (max-width: 790px) {
-    body {
-        max-width: 100%;
-        padding: 10px;
-    }
-
-    .product-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2×2 grid */
-        gap: 20px;
-    }
-
-    .hero {
-        height: 50vh;
-    }
-}
-
-/* Small Screens (≤ 590px) */
-@media only screen and (max-width: 590px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .product-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .hero {
-        height: 40vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-}
+/* Media
+::contentReference[oaicite:0]{index=0}
+ 

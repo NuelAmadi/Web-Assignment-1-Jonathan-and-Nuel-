@@ -11,12 +11,7 @@
     <!-- Header and Navigation -->
     <header>
       <figure>
-        <img
-          src="images/Agribloom Logo.png"
-          title="Website Logo"
-          alt="Website Logo"
-          class="logo"
-        />
+        <img src="images/Agribloom Logo.png" alt="Website Logo" class="logo" />
         <figcaption class="hidden-attribution">
           Photo by Melanie Maecker-Tursun on
           <a
@@ -83,7 +78,7 @@
               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
               required
             />
-          </div>3
+          </div>
           <div class="form-group">
             <label for="email">Email:</label>
             <input
@@ -106,8 +101,8 @@
           <textarea id="message" name="message" rows="5" required></textarea>
         </div>
 
-        <div class="form-group">
-          <label>Preferred Contact Method:</label>
+        <fieldset class="form-group">
+          <legend>Preferred Contact Method:</legend>
           <div class="option-group">
             <input
               type="checkbox"
@@ -126,10 +121,10 @@
             />
             <label for="contact-phone">Phone</label>
           </div>
-        </div>
+        </fieldset>
 
-        <div class="form-group">
-          <label>Subscribe to Newsletter:</label>
+        <fieldset class="form-group">
+          <legend>Subscribe to Newsletter:</legend>
           <div class="option-group">
             <input
               type="radio"
@@ -148,7 +143,7 @@
             />
             <label for="newsletter-no">No</label>
           </div>
-        </div>
+        </fieldset>
 
         <div class="form-buttons">
           <input type="reset" value="Reset" />
